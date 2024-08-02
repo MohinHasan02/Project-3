@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: times;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    padding: 40px 65px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+#nav h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+#content{
+    margin-top: 90px;
+    padding: 40px 65px;
+}
+#content h1{
+    margin-top: 30px;
+    font-size: 150px;
+    line-height: 140px;
+    font-weight: 600;
+    letter-spacing: -7px;
+}
+#content h3{
+    font-size: 38px;
+    font-weight: 600;
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 28px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#case h5{
+    font-size: 28px;
+    font-weight: 500;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 50px;
+}
+.elem{
+    width: 100%;
+}
+.elem-img{
+    height: 600px;
+    width: 100%;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://cdn.freebiesupply.com/logos/large/2x/sketch-2-logo-png-transparent.png);  
+}
+#img2{
+    background-image: url(https://cdn.dribbble.com/users/2778493/screenshots/14196709/media/6d1489cb2e94e77c5257014095252df2.png);
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+#bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid#000;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+#bottom i:hover{
+    background-color: black;
+    color: white;
+}
+#bottom h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+#bottom h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #686565;
+}
